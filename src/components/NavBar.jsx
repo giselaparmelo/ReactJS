@@ -1,5 +1,6 @@
 import './NavBar.css';
 import ButtonComponent from "./ButtonComponent";
+import CartWidget from './CartWidget';
 
 export default function NavBar(){
     return(
@@ -8,6 +9,7 @@ export default function NavBar(){
                 <ButtonComponent nombre='About Us' color='red'/>
                 <ButtonComponent nombre='Products' color='green'/>
                 <ButtonComponent nombre='Contact' color='blue'/>
+                <CartWidget/>
             </nav>
         </>
     )
